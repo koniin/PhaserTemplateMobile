@@ -22,13 +22,11 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\bkg.png" />
     <Content Include="assets\images\bloodcake.png" />
-    <Content Include="assets\images\level1.png" />
     <Content Include="assets\images\loader.png" />
     <Content Include="assets\images\logo.png" />
-    <Content Include="assets\images\simon.png" />
-    <Content Include="assets\images\titlepage.jpg" />
-    <Content Include="assets\sound\title.mp3" />
+    <Content Include="assets\sound\defaultloop.wav" />
     <Content Include="index.html" />
     <Content Include="src\lib\phaser.js" />
     <Content Include="src\lib\phaser.min.js" />
@@ -42,7 +40,7 @@
     <TypeScriptCompile Include="src\states\Boot.ts" />
     <TypeScriptCompile Include="src\entities\Player.ts" />
     <TypeScriptCompile Include="src\Game.ts" />
-    <TypeScriptCompile Include="src\states\Level1.ts" />
+    <TypeScriptCompile Include="src\states\Play.ts" />
     <TypeScriptCompile Include="src\states\MainMenu.ts" />
     <TypeScriptCompile Include="src\states\Preloader.ts" />
   </ItemGroup>
